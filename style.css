@@ -1,0 +1,66 @@
+  /* Create an accessible color palette using var()function */
+  /* https://www.w3schools.com/css/css3_variables.asp */
+  
+  form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 6px solid #999898;
+    border-radius: 16px;
+    width:70%;
+    margin-bottom: 20px ;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #131431;
+    background: hsl(326, 74%, 93%);
+  }
+
+  .radio {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 10px;
+    /* background: #575294; */
+    color: #131431;
+  }
+
+  #name {
+    width: 100%;
+    padding: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    background: hsl(324, 63%, 97%);
+    color: #8a095d;
+    font-family: "Doto", sans-serif;
+  }
+
+  #message {
+    width: 100%;
+    padding: 10px;
+    resize: vertical;
+    font-family: "Doto", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+
+  input,
+  textarea {
+    padding: 7px;
+    border: 3px solid #e3dfb3;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #c76eb4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #da93b5;
+  }
+label{
+  font-family: "Big Shoulders Inline", sans-serif;
+}
